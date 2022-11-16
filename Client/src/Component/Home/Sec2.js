@@ -14,7 +14,7 @@ const Sec2 = () => {
             <img className="resumeImg" src={pro} />
             <img className="resumeImg" src={simple} />
             </div>
-            <Link to="/profile">
+            <Link to="/templates">
             <button className="tryNow">Try now</button>
             </Link>
 

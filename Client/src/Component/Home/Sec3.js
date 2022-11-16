@@ -7,16 +7,16 @@ import { Link } from "react-router-dom"
 const Sec3= () => {
 
     return(
-        <div className="section2">
-               <h2>Variety of resume templates</h2>
-            <div className="imgContainer">
-            <img className="resumeImg" src={resume} />
-            <img className="resumeImg" src={pro} />
-            <img className="resumeImg" src={simple} />
-            </div>
-            <Link path="/profile">
-            <button className="tryNow">Try now</button>
-            </Link>
+      <div className="section3">
+        <p>ABOUT US</p>
+            <h2>Why choose MyPortfolio?</h2>
+            <p className="text">Choose font types, sizes, and spacing. You can bold,
+                italicize, and underline your text. You don’t need to use MS
+                Word resume templates: we take care of the formatting,
+                and give you access to the best resume designs you’ll ever see.</p>
+                <Link to="/profile">
+                <button className="fillprofile">Create your profile</button>
+                </Link>
 
         </div>
     )
